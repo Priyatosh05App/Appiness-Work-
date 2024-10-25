@@ -20,7 +20,7 @@
 </ul> 
 
 <h2 style="font-size: 24px;">Deployment</h2>
-You can access the live version of the calculator here: [Live Calculator](https://6718d57af82309b7e4a2aecb--calculator-html-css-js-appiness.netlify.app/)
+You can access the live version of the calculator here : https://calculator-html-css-js-appiness.netlify.app/
 
 <h2 style="font-size: 24px;">Future Enhancements</h2>
 <h3 style="font-size: 16px;">Potential features to add:</h3>
