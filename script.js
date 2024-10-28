@@ -24,7 +24,7 @@ buttons.forEach(button => {
                     setTimeout(() => {
                         expression = "";
                         input.value = "";
-                    }, 3000); // Clear the input after 3 seconds
+                    }, 3000); 
                 }
             } catch (error) {
                 input.value = "Error";
@@ -34,13 +34,13 @@ buttons.forEach(button => {
             expression = "";
             input.value = "";
         } else if (buttonValue === 'mc') {
-            memory = 0; // Clear memory
+            memory = 0; 
         } else if (buttonValue === 'mr') {
-            input.value = memory; // Recall memory
+            input.value = memory; 
         } else if (buttonValue === 'm-') {
-            memory -= parseFloat(input.value); // Memory minus
+            memory -= parseFloat(input.value); 
         } else if (buttonValue === 'm+') {
-            memory += parseFloat(input.value); // Memory plus
+            memory += parseFloat(input.value); 
         } else if (buttonValue === '√x') {
             expression = Math.sqrt(parseFloat(input.value)).toString();
             input.value = expression;
@@ -51,7 +51,7 @@ buttons.forEach(button => {
             expression += Math.PI.toString();
             input.value = expression;
         } else if (buttonValue === '^') {
-            expression += '**'; // Use ** for exponentiation in JS
+            expression += '**'; 
             input.value = expression;
         } else if (buttonValue === 'R2') {
             expression = parseFloat(input.value).toFixed(2);
